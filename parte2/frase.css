@@ -32,11 +32,11 @@ body {
   }
   @keyframes mostraParole1 {
     0% {
-      opacity: 1;
+      opacity: 0;
       transform: translateY(-50px);
     }
     15% {
-      opacity: 0;
+      opacity: 1;
       transform: translateY(0px);
     }
     34% {
@@ -66,11 +66,11 @@ body {
       transform: translateY(-50px);
     }
     80% {
-      opacity: 0;
+      opacity: 1;
       transform: translateY(0px);
     }
     100% {
-      opacity: 1;
+      opacity: 0;
       transform: translateY(50px);
     }
   }
